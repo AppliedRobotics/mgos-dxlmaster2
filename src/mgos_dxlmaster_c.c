@@ -48,7 +48,7 @@ static void uart_dispatcher(int uart_no, void *arg)
 }
 
 
-bool mgos_mgos_dxlmaster_init(void)
+bool mgos_mgos_dxlmaster2_init(void)
 {
     mgos_gpio_set_mode(5, MGOS_GPIO_MODE_OUTPUT);
 
